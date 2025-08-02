@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELULAR CENTER</title>
+    <style>
+         
+    .tipo {
+        color: red;
+        font-weight: bold;
+    }
+
+    .marca {
+        color: red;
+        font-weight: bold
+    } 
+
+    .accesorios {
+        color: red;
+        font-weight: bold
+    } 
+
+    .plan {
+        color: red;
+        font-weight: bold
+    } 
+
+    .cliente {
+        color: red;
+        font-weight: bold
+    } 
+
+    .moneda {
+        color: red;
+        font-weight: bold
+    } 
+    </style>
+</head>
+
+<body>
+    <section class="encabezado">
+        <div>
+            <h1>CELULAR CENTER</h1>
+            <h4>VENTA, MANTENIMIENTO, REPARACIÓN, REFACCIONES,</h4> 
+            <h4>ACCESORIOS, SOPORTE, CAPACITACIÓN</h4>
+        </div>
+    </section>
+
+    <section class="encabezado2">
+            <h4>DE LAS MARCAS: SAMNSUNG, NOKIA, MOTOROLA, SONY, LG, APPLE</h4>
+    </section>
+
+    <section>
+        <p class="tipo">TIPO</p>
+        <form>
+            <input type="radio" name="seleccionar" id="NUEVO" value="NUEVO">
+            <label for="nuevo">NUEVO </label><br>
+
+            <input type="radio" name="seleccionar" id="SEMI NUEVO" value="SEMI NUEVO">
+            <label for="seminuevo">SEMI NUEVO</label><br>
+
+            <input type="radio" name="seleccionar" id="USADO" value="USADO">
+            <label for="usado">USADO</label><br>
+        </form>
+    </section>
+
+    <section>
+        <label class="marca">MARCA:</label>
+            <select id="marca" name="marca">
+                <option value="alcatel" selected>ALCATEL</option>
+                <option value="samsung">SAMSUNG</option>
+                <option value="apple">APPLE</option>
+                <option value="huawei">HUAWEI</option>
+            </select>
+    </section>
+
+    <section>
+        <p class="accesorios">ACCESORIOS:</p>
+            <form>
+                <input type="radio" name="seleccionar" id="audifonos" value="audifonos">
+                <label for="audifonos">AUDIFONOS</label><br>
+                <input type="radio" name="seleccionar" id="manoslibres" value="manoslibres">
+                <label for="manoslibres">MANOS LIBRES</label><br>
+                <input type="radio" name="seleccionar" id="cableusb" value="cableusb">
+                <label for="cableusb">CABLE USB</label><br>
+                <input type="radio" name="seleccionar" id="cargador" value="cargador">
+                <label for="cargador">CARGADOR</label><br>
+                <input type="radio" name="seleccionar" id="caratula" value="caratula">
+                <label for="caratula">CARATULA/MICA</label><br>
+                <input type="radio" name="seleccionar" id="pila" value="pila">
+                <label for="pila">PILA</label><br>
+                <input type="radio" name="seleccionar" id="clips" value="clips">
+                <label for="clips">CLIPS</label><br>
+                <input type="radio" name="seleccionar" id="memorias2" value="memorias2">
+                <label for="memorias2">MEMORIAS 2GB</label><br>
+                <input type="radio" name="seleccionar" id="memorias8" value="memorias8">
+                <label for="memorias8">MEMORIAS 8GB</label>
+            </form>
+    </section>
+
+    <br>
+
+    <section>
+        <label class="plan">PLAN:</label><br>
+            <select id="plan" name="plan">
+                <option value="prepago" selected>PRE PAGO</option>
+                <option value="jr">PLAN JR</option>
+                <option value="control">PLAN CONTROL</option>
+                <option value="total">PLAN ACCESO TOTAL</option>
+            </select>
+    </section>
+
+    <section>
+        <p class="cliente">CLIENTE</p>
+            <form>
+                <label for="nombre">NOMBRE:</label> 
+                <input type="nombre"><br>
+                <label for="direccion">DIRECCIÓN:</label>
+                <input type="direccion"><br>
+                <label for="telefono">TELEFONO:</label>
+                <input type="telefono"><br>
+                <label for="email">CORREO:</label>
+                <input type="email">
+            </form>
+    </section>
+
+    <br>
+    
+    <section>
+        <label class="moneda">MONEDA:</label><br>
+            <select name="moneda" id="moneda">
+                <option value="pesos" selected>PESOS</option>
+                <option value="dolares" selected>DOLARES</option>
+            </select>
+    </section>
+
+</body>
+</html>
